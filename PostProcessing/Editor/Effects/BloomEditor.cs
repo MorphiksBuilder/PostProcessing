@@ -2,8 +2,8 @@ using UnityEngine.Rendering.PostProcessing;
 
 namespace UnityEditor.Rendering.PostProcessing
 {
-    [PostProcessEditor(typeof(Bloom))]
-    public sealed class BloomEditor : PostProcessEffectEditor<Bloom>
+    [PostProcessEditor(typeof(UnityEngine.Rendering.PostProcessing.Bloom))]
+    public sealed class BloomEditor : PostProcessEffectEditor<UnityEngine.Rendering.PostProcessing.Bloom>
     {
         SerializedParameterOverride m_Intensity;
         SerializedParameterOverride m_Threshold;
